@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cross-compiling Rust for the Raspberry Pi on macOS"
-date: 2017-10-26 01:24:24 -0500
+date: 2017-11-07 07:56:00 -0500
 ---
 
 The following will take you down the rabbit hole of cross-compiling a simple binary (written in [Rust][1]) for your Raspberry Pi 2. Using macOS. And a tool called crosstool-NG. It's more than a few steps long, so buckle up and let's get started!
@@ -151,7 +151,7 @@ ssh pi@192.168.3.155 'chmod +x ~/hello && ~/hello'
 Hello, world!
 ```
 
-Congrats, now go out and make some kick-ass Rust applications for your Pi! Thanks for following along and please let me know if you have any questions, comments, or just found this helpful.
+Congrats, now go out and make some kick-ass Rust applications for your Pi! Thanks for following along and please let me know (via email, GH issue, etc.) if you have any questions, comments, or just found this helpful.
 
 -Adrian
 
